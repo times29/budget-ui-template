@@ -1,0 +1,62 @@
+{
+  "name": "budget-ui",
+  "version": "1.0.0",
+  "description": "Budget UI",
+  "author": "Timo Schlatter",
+  "homepage": "https://bugdet-ui.onrender.com/",
+  "private": true,
+  "scripts": {
+    "ng": "ng",
+    "start": "ng serve",
+    "build": "ng build --configuration production",
+    "watch": "ng build --watch --configuration development",
+    "test": "ng test",
+    "lint": "ng lint",
+    "prettier": "prettier --write \"src/**/*.ts\" \"src/**/*.html\" \"src/**/*.scss\""
+  },
+  "dependencies": {
+    "@angular/animations": "^19.1.7",
+    "@angular/common": "^19.1.7",
+    "@angular/core": "^19.1.7",
+    "@angular/fire": "19.0.0",
+    "@angular/forms": "^19.1.7",
+    "@angular/platform-browser": "^19.1.7",
+    "@angular/platform-browser-dynamic": "^19.1.7",
+    "@angular/platform-server": "^19.1.7",
+    "@angular/router": "^19.1.7",
+    "@ionic/angular": "^8.2.6",
+    "@ionic/angular-server": "^8.2.6",
+    "date-fns": "^2.30.0",
+    "ionicons": "^7.4.0",
+    "rxjs": "~7.8.1",
+    "tslib": "^2.3.0",
+    "zone.js": "~0.15.0"
+  },
+  "devDependencies": {
+    "@angular-devkit/build-angular": "^19.1.8",
+    "@angular-eslint/builder": "19.1.0",
+    "@angular-eslint/eslint-plugin": "19.1.0",
+    "@angular-eslint/eslint-plugin-template": "19.1.0",
+    "@angular-eslint/schematics": "19.1.0",
+    "@angular-eslint/template-parser": "19.1.0",
+    "@angular/cli": "^19.1.8",
+    "@angular/compiler": "^19.1.7",
+    "@angular/compiler-cli": "^19.1.7",
+    "@angular/language-service": "^19.1.7",
+    "@eslint/eslintrc": "^3.3.0",
+    "@eslint/js": "^9.21.0",
+    "@ionic/angular-toolkit": "^11.0.1",
+    "@types/node": "^12.11.1",
+    "@typescript-eslint/eslint-plugin": "8.24.1",
+    "@typescript-eslint/parser": "8.24.1",
+    "eslint": "^9.21.0",
+    "eslint-config-prettier": "^9.1.0",
+    "eslint-plugin-prettier": "^5.2.1",
+    "prettier": "^3.3.3",
+    "ts-node": "~8.3.0",
+    "typescript": "~5.7.3"
+  },
+  "engines": {
+    "node": ">=22 <23"
+  }
+}
